@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Who will be frozen first?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <main class="terminal">
+    <p class="system-line" id="system-line">&gt; connecting...</p>
+
+    <h1 class="question glitch" id="question" data-text="Who will be frozen first?">Who will be frozen first?</h1>
+
+    <div class="options" id="options">
+      <button class="option" type="button" data-choice="golden">[ The golden flower ]</button>
+      <button class="option" type="button" data-choice="keeper">[ The keeper of the ruins ]</button>
+    </div>
+
+    <section class="result hidden" id="result" aria-live="polite">
+      <p class="result-text glitch" data-text="Since when does your choice matter?">Since when does your choice matter?</p>
+      <p class="result-note" id="result-note"></p>
+    </section>
+
+    <section class="error hidden" id="error" aria-live="polite">
+      <p class="error-title">&gt; CONNECTION LOST</p>
+      <p class="error-detail" id="error-detail"></p>
+    </section>
+
+    <p class="footer" id="footer">// record 001 — do not look back</p>
+  </main>
+
+  <noscript>
+    <p style="color:#fff;font-family:monospace;text-align:center;padding:2rem;">// javascript is required to enter the archive</p>
+  </noscript>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
