@@ -1,7 +1,9 @@
 {
   "votes": {
-    "golden": 0,
+    "golden": 1,
     "keeper": 0
   },
-  "voters": []
+  "voters": [
+    "v-mwqilo9r-d7eprc0u"
+  ]
 }
