@@ -5,9 +5,16 @@
       "email": "sigmadehuk@gmail.com",
       "id": "a-mwsyv5ux-ih2afh8j",
       "time": "2026-11-23T08:02:19.432Z"
+    },
+    {
+      "answer": "The Barrier",
+      "email": "jackalangdale@gmail.com",
+      "id": "a-mwts5amg-nnzsf0ol",
+      "time": "2026-11-23T21:31:39.559Z"
     }
   ],
   "voters": [
-    "a-mwsyv5ux-ih2afh8j"
+    "a-mwsyv5ux-ih2afh8j",
+    "a-mwts5amg-nnzsf0ol"
   ]
 }
