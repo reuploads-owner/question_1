@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Where will we meet her?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <main class="terminal">
+    <p class="system-line" id="system-line">&gt; connecting...</p>
+
+    <h1 class="question glitch" id="question" data-text="Where will we meet her?">Where will we meet her?</h1>
+
+    <p class="whisper" id="whisper">// she waits for a place</p>
+    <p class="whisper whisper-2" id="whisper2">// it is not too late to turn back</p>
+
+    <form class="form" id="form" autocomplete="off" novalidate>
+      <label class="field">
+        <span class="field-label">[ name the place ]</span>
+        <input
+          type="text"
+          id="answer"
+          name="answer"
+          maxlength="500"
+          required
+          placeholder="type here"
+          spellcheck="false"
+        >
+      </label>
+
+      <label class="field">
+        <span class="field-label">[ where should the answer find you ]</span>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          maxlength="254"
+          required
+          placeholder="you@example.com"
+          spellcheck="false"
+        >
+      </label>
+
+      <button class="submit" type="submit">[ offer your answer ]</button>
+    </form>
+
+    <section class="result hidden" id="result" aria-live="polite">
+      <p class="result-text glitch" data-text="We’ll meet soon.">We’ll meet soon.</p>
+      <p class="result-note" id="result-note"></p>
+    </section>
+
+    <section class="error hidden" id="error" aria-live="polite">
+      <p class="error-title">&gt; CONNECTION LOST</p>
+      <p class="error-detail" id="error-detail"></p>
+    </section>
+
+    <p class="footer" id="footer">// your voice is hers now</p>
+
+    <pre class="debug hidden" id="debug" aria-hidden="true"></pre>
+  </main>
+
+  <noscript>
+    <p style="color:#fff;font-family:monospace;text-align:center;padding:2rem;">// javascript is required to enter the archive</p>
+  </noscript>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
