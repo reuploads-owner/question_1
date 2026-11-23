@@ -1,4 +1,13 @@
 {
-  "responses": [],
-  "voters": []
+  "responses": [
+    {
+      "answer": "the lake",
+      "email": "sigmadehuk@gmail.com",
+      "id": "a-mwsyv5ux-ih2afh8j",
+      "time": "2026-11-23T08:02:19.432Z"
+    }
+  ],
+  "voters": [
+    "a-mwsyv5ux-ih2afh8j"
+  ]
 }
